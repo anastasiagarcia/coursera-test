@@ -8,3 +8,11 @@
 		border: 1px solid black;
 	}
 }
+
+body {
+	background-color: white;
+}
+
+#box {
+	background-color: grey;
+}
