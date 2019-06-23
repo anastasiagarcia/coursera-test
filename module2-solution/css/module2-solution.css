@@ -40,7 +40,6 @@ body {
 .box-title {
 
 	border: 1px solid black;
-	overflow: auto;
 	text-align: center;
 	line-height: 10px;
 	width: 150px;
