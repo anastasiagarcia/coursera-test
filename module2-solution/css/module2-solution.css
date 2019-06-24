@@ -6,14 +6,17 @@ body {
 	background-color: white;
 }
 
-
+p {
+	font-family: Helvetica;
+	color: black;
+	padding:40px 10px 10px 10px;
+}
 
 .box1 {
 	display: block;
 	background-color: darkgray;
 	border: 1px solid black;
 	width: 95%;
-	height: 90%;
 	margin-right: auto;
 	margin-left: auto;
 }
@@ -23,7 +26,6 @@ body {
 	background-color: darkgray;
 	border: 1px solid black;
 	width: 95%;
-	height: 90%;
 	margin-right: auto;
 	margin-left: auto;
 
@@ -32,7 +34,6 @@ body {
 .box3 {
 	background-color: darkgray;
 	border: 1px solid black;
-	height: 90%;
 	margin-right: auto;
 	margin-left: auto;
 }
@@ -53,11 +54,11 @@ body {
 /****adding to each box-title****/
 
 .title1 {
-	background-color: darksalmon
+	background-color: coral;
 }
 
 .title2 {
-	background-color: darkseagreen
+	background-color: forestgreen;
 }
 
 .title3 {
@@ -68,8 +69,7 @@ body {
 .box-content {
 
 	margin: 10px;
-	overflow: auto;
-	float: right;
+	
 }
 
 h1 {
@@ -82,6 +82,8 @@ h1 {
 /******* Simple responsive media *******/
 .row {
 	width: 100%;
+	height: auto;
+	position:relative;
 }
 
 /*******large devices only*******/
@@ -100,7 +102,7 @@ h1 {
 	.col-lg-11,
 	.col-lg-12 {
 		float: left;
-		height: 380px;
+		height: 400px;
 	}
 
 	.col-lg-1 {
@@ -172,7 +174,7 @@ h1 {
 	.col-mg-11,
 	.col-mg-12 {
 		float: left;
-		height: 340px;
+		height: 360px;
 
 	}
 
