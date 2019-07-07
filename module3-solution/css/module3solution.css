@@ -11,7 +11,11 @@ body {
   border-radius: 0;
   border: 2px solid black;
 }
-
+.container-fixed{
+  padding-left: 15px;
+  margin-right: 0px;
+  margin-left: 0px;
+}
 /***Brand name ***/
 
 .navbar-brand h1 
@@ -24,6 +28,7 @@ body {
   margin-top: 0;
   margin-bottom: 0;
   line-height: .75;
+  text-align: left;
   }
   .navbar-brand a:hover, .navbar-brand a:focus {
     text-decoration:none;
