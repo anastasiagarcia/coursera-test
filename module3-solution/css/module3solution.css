@@ -6,7 +6,7 @@ body {
 }
 
 /**HEADER **/
-#header-nav {
+.header-nav {
   background-color:rgb(212, 20, 20);
   border-radius: 0;
   border: 2px solid black;
@@ -29,13 +29,10 @@ body {
     text-decoration:none;
   }
 
-  #nav-list{
-background-color: white;
-  }
-  #nav-list a{
-    color: black;
-    text-align: center;
-    
+  .nav-collapse{
+    background-color: white;
+    margin:0px;
+    padding:0px;
   }
 .box{
   display: block;
@@ -58,9 +55,13 @@ p {
   text-align: justify;
 }
 
-#nav-list {
-  margin-top: 10px;
-}
+
+#nav-list{
+  background-color: white;
+  margin:0px 0px 0px 0px;
+  margin-top: 0px;
+  padding:0px;
+    }
 #nav-list a {
   color: #951C49;
   text-align: center;
